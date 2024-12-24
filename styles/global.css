@@ -6,16 +6,16 @@
 
 :root{
     
-    --font--family-logo:"Leckerli One", serif;
+    --font-family-logo:"Leckerli One", serif;
     --font-family-baloo:"Baloo 2", serif;
     --font-family-open:"Open Sans", serif;
 
-    --text-logo: 400 2.5rem/auto var(--font--family-logo);
-    --text-heading-md: 700 1.75rem/auto var(--font-family-baloo);
-    --text-heading-sm: 700 1.125rem/auto var(--font-family-baloo);
-    --text-body-md: 400 1rem/auto var(--font-family-open);
-    --text-body-sm: 400 .875rem/auto var(--font-family-open);
-    --text-body-xs: 400 0.75rem/auto var(--font-family-open);
+    --text-logo: 400 2.5rem/normal var(--font--family-logo);
+    --text-heading-md: 700 1.75rem/normal var(--font-family-baloo);
+    --text-heading-sm: 700 1.125rem/normal var(--font-family-baloo);
+    --text-body-md: 400 1rem/normal var(--font-family-open);
+    --text-body-sm: 400 .875rem/normal var(--font-family-open);
+    --text-body-xs: 400 0.75rem/normal var(--font-family-open);
     
 
     --brand-light: #59B2FF;
