@@ -1,0 +1,20 @@
+.aside-container{
+    padding: 2rem;
+    & img{
+        width: 2.875rem ;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    & h1{
+        font: var(--text-logo);
+        color: #FF598B;
+        margin-bottom: 4px;
+    }
+
+    & p{
+        font: var(--text-body-sm);
+        font-weight: 300;
+        color: var(--text-heading);
+    }
+}

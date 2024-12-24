@@ -1,0 +1,28 @@
+#app{
+    display: grid;
+    grid-template-columns: 31.25% 64.25%;
+    height: 140vh;
+ 
+}
+
+main{
+    overflow: auto;
+    padding: 5rem 8.125rem;
+    margin: 1.25rem;
+    background-color: var(--shape-body);
+    border-radius: 1rem;
+}
+
+aside{
+    overflow: hidden;
+    padding: 1.25rem;
+    margin-block: 1.25rem;
+    margin-left: 1.25rem;
+    border-radius: 1rem;
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
