@@ -1,0 +1,59 @@
+.main-container{
+
+  & h1{
+    font: var(--text-heading-md);
+    color: var(--text-heading);
+  }
+}
+
+
+fieldset{
+  margin: 2.5rem 0 3rem;
+  border: none;
+  & legend{
+    margin-bottom: 1,5rem;
+    display: inline-flex;
+    align-items: center;
+    font: var(--text-heading-sm);
+    color: var(--text-heading);
+    
+    & img{
+      margin-right: 0.75rem;
+    }
+    
+  }
+  
+}
+
+
+
+.input-wrapper{
+  margin-block: 1.5rem 1rem;
+
+  & label{
+    font: var(--text-body-md);
+    color: var(--text-body);
+    
+  }
+
+  & input{
+    margin-top: .75rem;
+    border: 1px solid var(--input-stroke);
+    border-radius: .625rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--input-base);
+
+    
+  }
+
+  & input::placeholder{
+    margin-left: 1rem;
+    font: var(--text-body-md);
+    color: var(--input-placeholder);
+    }
+
+  
+
+  
+}

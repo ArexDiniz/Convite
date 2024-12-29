@@ -1,5 +1,6 @@
 #app{
     display: grid;
+    justify-content: center;
     grid-template-columns: 31.25% 64.25%;
     height: 140vh;
  
