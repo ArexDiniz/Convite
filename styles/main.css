@@ -25,35 +25,11 @@ fieldset{
   
 }
 
+.location-event{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1rem;
 
-
-.input-wrapper{
-  margin-block: 1.5rem 1rem;
-
-  & label{
-    font: var(--text-body-md);
-    color: var(--text-body);
-    
-  }
-
-  & input{
-    margin-top: .75rem;
-    border: 1px solid var(--input-stroke);
-    border-radius: .625rem;
-    width: 100%;
-    padding: 1rem;
-    background-color: var(--input-base);
-
-    
-  }
-
-  & input::placeholder{
-    margin-left: 1rem;
-    font: var(--text-body-md);
-    color: var(--input-placeholder);
-    }
-
-  
-
-  
 }
+
+

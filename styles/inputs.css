@@ -1,0 +1,102 @@
+input[type="datetime-local"] {
+    text-transform: uppercase;
+
+   &::-webkit-calendar-picker-indicator{
+    display: none;
+  }
+
+}
+
+
+
+
+.input-wrapper{
+    margin-block: 1.5rem 1rem;
+    & label{
+      font: var(--text-body-md);
+      color: var(--text-body);
+      
+    }
+  
+    & input{
+      margin-top: .75rem;
+      border: 1px solid var(--input-stroke);
+      border-radius: .625rem;
+      width: 100%;
+      padding: 1rem;
+      background-color: var(--input-base);
+      font: var(--text-body-md);
+      color: var(--text-heading-md);
+  
+      outline: none;
+  
+      
+    }
+  
+    & input:focus{
+      border: 1px solid var(--brand-light);
+    }
+  
+    & input::placeholder{
+      margin-left: 1rem;
+      font: var(--text-body-md);
+      color: var(--input-placeholder);
+      }
+  
+    
+  
+    
+  }
+
+  .radio-wrapper{
+    margin-top: .75rem;
+    display: flex;
+    border: 1px solid var(--input-stroke);
+    border-radius: .625rem;
+    background-color: var(--input-base);
+    padding: 0.25rem;
+    gap: 4px;
+   
+
+    & .radio-inner{
+      display: flex;
+      border-radius: .625rem;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.125rem ;
+      width: 100%;
+      position: relative;
+
+      & input,
+      & input:focus,
+      & input:hover{
+        all:unset;
+        position: absolute;
+        inset: 0;
+        
+      }
+
+      &:hover, &:focus-within{
+        background-color: var(--shape-button);
+      }
+
+      &:has(:checked){
+       
+        & svg path{
+          fill: var(--brand-light);
+          
+
+        }
+      }
+      
+
+      
+    }
+
+    
+  }
+
+ 
+
+  
