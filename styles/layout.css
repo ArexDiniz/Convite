@@ -1,15 +1,17 @@
 #app{
     display: grid;
-    justify-content: center;
-    grid-template-columns: 31.25% 64.25%;
-    height: 140vh;
- 
+    justify-items: center;
+    grid-template-columns: 25rem 51.25rem;
+    height: 45.5rem;
+    width: 77.5rem;
+    gap: 1.25rem;
+   
 }
 
 main{
+    margin-block: 1.25rem;
     overflow: auto;
     padding: 5rem 8.125rem;
-    margin: 1.25rem;
     background-color: var(--shape-body);
     border-radius: 1rem;
 }
@@ -18,7 +20,7 @@ aside{
     overflow: hidden;
     padding: 1.25rem;
     margin-block: 1.25rem;
-    margin-left: 1.25rem;
+    
     border-radius: 1rem;
     background-image: url(../assets/Background.png);
     background-repeat: no-repeat;

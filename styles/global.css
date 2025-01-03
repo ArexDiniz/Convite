@@ -37,7 +37,8 @@
 }
 
 body{
-
+display: flex;
+justify-content: center;
 background-color: var(--shape-background);
 font: var(--text-body-sm);
 color: var(--text-body)
