@@ -2,9 +2,9 @@
     display: grid;
     justify-items: center;
     grid-template-columns: 25rem 51.25rem;
-    height: 45.5rem;
+    
     width: 77.5rem;
-    gap: 1.25rem;
+    gap: 1.125rem;
    
 }
 
@@ -17,6 +17,7 @@ main{
 }
 
 aside{
+    height: 45.5rem;
     overflow: hidden;
     padding: 1.25rem;
    
