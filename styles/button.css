@@ -4,16 +4,17 @@
     align-items: center;
     gap: 0.75rem;
     margin-top: .75rem;
-  
+    
+    
+    
       & input{
         position: absolute;
-        margin-left: -9999px;
         visibility: hidden;
       }
   
       & label{
-        display: block;
-        position: relative;
+    display: block;
+    position: relative;
        cursor: pointer;
        outline: none;
        user-select: none;
