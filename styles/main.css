@@ -34,7 +34,7 @@ fieldset{
 
 .input-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 1rem;
+  grid-template-columns:11rem 23rem ;
+  gap: 8px;
 }
 
