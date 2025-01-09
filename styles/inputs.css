@@ -48,6 +48,16 @@ input[type="datetime-local"] {
     
   }
 
+  .input-file{
+    margin-block: 1.5rem 1rem;
+    & label{
+      font: var(--text-body-md);
+      color: var(--text-body);
+      
+    }
+}
+
+
   .radio-wrapper{
     margin-top: .75rem;
     display: flex;

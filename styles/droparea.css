@@ -1,3 +1,4 @@
+
 .drop-zone{
    
     border-radius: .25rem ;
@@ -6,6 +7,8 @@
     text-align: center;
     gap: .5rem;
     position: relative;
+    margin-top: 0.75rem;
+    
     
 
 
@@ -14,11 +17,26 @@
         width: 100%;
         height: 100%;
         cursor: pointer;
-    
+        margin-top: 0.75rem;
+        
+        font: var(--text-body-md);
+        color: var(--input-placeholder);
     }
     & input::file-selector-button{
         opacity: 0;
         cursor: pointer;
         
       }
+}
+
+.text-file{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--shape-button);
+    border-radius: .5rem;
+    padding: 0.65rem 0.75rem ;
+
+    font: var(--text-body-md);
+    color: var(--text-heading);
 }
