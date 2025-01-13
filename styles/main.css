@@ -25,7 +25,7 @@ fieldset{
   
 }
 
-.location-event{
+.grid-form{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1rem;
@@ -36,5 +36,12 @@ fieldset{
   display: grid;
   grid-template-columns:11rem 23rem ;
   gap: 8px;
+}
+
+.line{
+  width: 100%;
+  height: 2px;
+  background-color: var(--input-stroke);
+  margin-block: 3rem;
 }
 
